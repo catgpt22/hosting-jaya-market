@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hosting Jaya — VPS Murah, Cepat, Terpercaya</title>
+<meta name="description" content="Hosting Jaya menyediakan VPS hosting murah dengan spesifikasi jelas, bandwidth shared 50 Mbps, dan support langsung ke pemilik.">
+<style>
+  :root{
+    --bg:#0b1120; --card:#111c33; --card2:#16233f; --line:#243356;
+    --text:#e8eefc; --muted:#94a3c4; --accent:#3b82f6; --accent2:#22c55e;
+    --warn:#f59e0b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.65;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{padding:64px 0 40px;text-align:center}
+  h1{font-size:2.4rem;letter-spacing:-.02em;margin-bottom:12px}
+  h1 span{color:var(--accent)}
+  .sub{color:var(--muted);font-size:1.05rem;max-width:620px;margin:0 auto 28px}
+  .btn{
+    display:inline-block;background:var(--accent);color:#fff;padding:13px 30px;
+    border-radius:10px;text-decoration:none;font-weight:600;transition:.2s;
+  }
+  .btn:hover{background:#2563eb;transform:translateY(-1px)}
+  .btn-ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+  .btn-ghost:hover{background:var(--card)}
+  section{padding:52px 0}
+  h2{font-size:1.6rem;margin-bottom:8px;letter-spacing:-.01em}
+  .lead{color:var(--muted);margin-bottom:28px}
+  .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .card h3{font-size:1.05rem;margin-bottom:12px}
+  .card p{color:var(--muted);font-size:.93rem}
+  .plans{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:24px}
+  .plan{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:24px 20px;display:flex;flex-direction:column;position:relative}
+  .plan.pop{border-color:var(--accent);background:var(--card2)}
+  .tag{position:absolute;top:-11px;left:20px;background:var(--accent);color:#fff;
+    font-size:.7rem;font-weight:700;padding:3px 11px;border-radius:20px;letter-spacing:.03em}
+  .plan h3{font-size:1.1rem;margin-bottom:4px}
+  .price{font-size:1.7rem;font-weight:700;margin:10px 0 2px}
+  .price small{font-size:.85rem;color:var(--muted);font-weight:400}
+  .spec{list-style:none;margin:16px 0 20px;font-size:.9rem;color:var(--muted);flex:1}
+  .spec li{padding:5px 0;border-bottom:1px dashed var(--line)}
+  .spec li:last-child{border:none}
+  .spec b{color:var(--text);font-weight:600}
+  .plan .btn{width:100%;text-align:center;padding:11px 0;font-size:.92rem}
+  .note{background:#1a1408;border:1px solid #4a3410;border-left:3px solid var(--warn);
+    border-radius:10px;padding:16px 18px;margin-top:20px}
+  .note p{color:#e8d5a8;font-size:.9rem}
+  .note strong{color:var(--warn)}
+  .order{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px}
+  label{display:block;font-size:.86rem;color:var(--muted);margin-bottom:6px;font-weight:500}
+  input,select,textarea{
+    width:100%;background:var(--bg);border:1px solid var(--line);color:var(--text);
+    padding:11px 13px;border-radius:9px;font-size:.95rem;font-family:inherit;margin-bottom:16px
+  }
+  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+  .two{display:grid;gap:0 16px;grid-template-columns:1fr 1fr}
+  textarea{min-height:90px;resize:vertical}
+  .faq{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:12px}
+  .faq h4{font-size:1rem;margin-bottom:8px}
+  .faq p{color:var(--muted);font-size:.92rem}
+  footer{border-top:1px solid var(--line);padding:28px 0;text-align:center;color:var(--muted);font-size:.87rem}
+  @media(max-width:560px){
+    h1{font-size:1.8rem} .two{grid-template-columns:1fr} header{padding:40px 0 28px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Hosting <span>Jaya</span></h1>
+    <p class="sub">VPS hosting dengan spesifikasi yang jelas, harga jujur, dan support langsung ke pemilik — bukan ticket bot.</p>
+    <a href="#pesan" class="btn">Pesan Sekarang</a>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Kenapa Hosting Jaya</h2>
+    <p class="lead">Meski kami masih kecil, yang kami janjikan kami tepati.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Speksi Jujur</h3>
+        <p>Resource yang Anda bayar itu yang Anda dapat. Tidak ada restart mendadak saat CPU penuh.</p>
+      </div>
+      <div class="card">
+        <h3>Support Langsung</h3>
+        <p>Masalah Anda ditangani pemilik, bukan diteruskan ke antrean yang-loss.</p>
+      </div>
+      <div class="card">
+        <h3>Bandwidth 50 Mbps</h3>
+        <p>Koneksi fiber berkecepatan tinggi,Applicable untuk website, bot, dan game server ringan.</p>
+      </div>
+      <div class="card">
+        <h3>Tanpa Biaya Tersembunyi</h3>
+        <p>Bayar satu harga bulanan. Tidak ada biaya setup, biaya admin, atau biaya pembatalan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="paket">
+  <div class="wrap">
+    <h2>Paket VPS</h2>
+    <p class="lead">Semua paket berbasis Linux (LXC). Resource dipakai bersama antar-VPS.</p>
+    <div class="plans">
+
+      <div class="plan">
+        <h3>Starter</h3>
+        <div class="price">Rp 30.000<small>/bulan</small></div>
+        <ul class="spec">
+          <li>vCPU <b>1 core</b></li>
+          <li>RAM <b>512 MB</b></li>
+          <li>Storage <b>10 GB</b></li>
+          <li>IPv4 <b>1</b></li>
+          <li>Bandwidth <b>shared 50 Mbps</b></li>
+        </ul>
+        <a href="#pesan" class="btn btn-ghost">Pesan</a>
+      </div>
+
+      <div class="plan">
+        <h3>Basic</h3>
+        <div class="price">Rp 50.000<small>/bulan</small></div>
+        <ul class="spec">
+          <li>vCPU <b>1 core</b></li>
+          <li>RAM <b>1 GB</b></li>
+          <li>Storage <b>25 GB</b></li>
+          <li>IPv4 <b>1</b></li>
+          <li>Bandwidth <b>shared 50 Mbps</b></li>
+        </ul>
+        <a href="#pesan" class="btn btn-ghost">Pesan</a>
+      </div>
+
+      <div class="plan pop">
+        <div class="tag">PALING LARIS</div>
+        <h3>Standard</h3>
+        <div class="price">Rp 85.000<small>/bulan</small></div>
+        <ul class="spec">
+          <li>vCPU <b>2 core</b></li>
+          <li>RAM <b>2 GB</b></li>
+          <li>Storage <b>50 GB</b></li>
+          <li>IPv4 <b>1</b></li>
+          <li>Bandwidth <b>shared 50 Mbps</b></li>
+        </ul>
+        <a href="#pesan" class="btn">Pesan</a>
+      </div>
+
+      <div class="plan">
+        <h3>Pro</h3>
+        <div class="price">Rp 145.000<small>/bulan</small></div>
+        <ul class="spec">
+          <li>vCPU <b>2 core</b></li>
+          <li>RAM <b>4 GB</b></li>
+          <li>Storage <b>100 GB</b></li>
+          <li>IPv4 <b>1</b></li>
+          <li>Bandwidth <b>shared 50 Mbps</b></li>
+        </ul>
+        <a href="#pesan" class="btn btn-ghost">Pesan</a>
+      </div>
+
+      <div class="plan">
+        <h3>Business</h3>
+        <div class="price">Rp 220.000<small>/bulan</small></div>
+        <ul class="spec">
+          <li>vCPU <b>4 core</b></li>
+          <li>RAM <b>6 GB</b></li>
+          <li>Storage <b>200 GB</b></li>
+          <li>IPv4 <b>1</b></li>
+          <li>Bandwidth <b>shared 50 Mbps</b></li>
+        </ul>
+        <a href="#pesan" class="btn btn-ghost">Pesan</a>
+      </div>
+
+    </div>
+
+    <div class="note">
+      <p><strong>Catatan jujur soal resource:</strong> vCPU bersifat <b>shared</b> — semua VPS berbagi 4 core fisik dari satu mesin. Ini kondisi normal di hosting VPS murah, dan performa tetap baik untuk penggunaan normal. Yang perlu diketahui: Business tidak dapategi berjalan bersamaan dengan Standard + Pro di waktu yang sama, karena total RAM akan melebihi kapasitas mesin.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Pertanyaan Umum</h2>
+    <div class="faq">
+      <h4>OS apa yang bisa dipilih?</h4>
+      <p>Linux: Debian, Ubuntu, dan Alpine. Butuh OS lain? Sampaikan saat order, kami cek ketersediaannya.</p>
+    </div>
+    <div class="faq">
+      <h4>Apakah bisa upgrade paket?</h4>
+      <p>Bisa. Naik paket kapan saja, selisih dibayar pro-rata. Turun paket berlaku di bulan berikutnya.</p>
+    </div>
+    <div class="faq">
+      <h4>Bagaimana cara pembayarannya?</h4>
+      <p>Transfer bank atau QRIS. Pembayaran dikonfirmasi manual, lalu VPS dibuat dalam 1x24 jam setelah pembayaran diterima.</p>
+    </div>
+    <div class="faq">
+      <h4>Apakah data saya aman?</h4>
+      <p>Setiap VPS terisolasi di atas virtualisasi Linux. Anda punya akses root penuh di VPS Anda sendiri. Kami tidak bisa melihat isi di dalamnya — dan tidak akan mencoba.</p>
+    </div>
+    <div class="faq">
+      <h4>Kalau server saya mati?</h4>
+      <p>Backup otomatis harian. Untuk data penting, tetap kami sarankan backup sendiri ke tempat lain — backup di server yang sama bukan backup.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pesan">
+  <div class="wrap">
+    <h2>Pesan VPS Anda</h2>
+    <p class="lead">Isi form ini, lalu saya akan menghubungi Anda untuk konfirmasi dan pembayaran.</p>
+    <div class="order">
+      <form id="orderForm" onsubmit="return sendWA(event)">
+        <div class="two">
+          <div>
+            <label>Nama lengkap</label>
+            <input type="text" name="nama" placeholder="Nama Anda" required>
+          </div>
+          <div>
+            <label>Username Telegram</label>
+            <input type="text" name="telegram" placeholder="@username">
+          </div>
+        </div>
+        <div class="two">
+          <div>
+            <label>Nomor WhatsApp</label>
+            <input type="text" name="wa" placeholder="08xxxxxxxxxx">
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="email@domain.com">
+          </div>
+        </div>
+        <div class="two">
+          <div>
+            <label>Paket</label>
+            <select name="paket" required>
+              <option value="">-- Pilih paket --</option>
+              <option>Starter — 1 core, 512 MB, 10 GB — Rp 30.000</option>
+              <option>Basic — 1 core, 1 GB, 25 GB — Rp 50.000</option>
+              <option>Standard — 2 core, 2 GB, 50 GB — Rp 85.000</option>
+              <option>Pro — 2 core, 4 GB, 100 GB — Rp 145.000</option>
+              <option>Business — 4 core, 6 GB, 200 GB — Rp 220.000</option>
+            </select>
+          </div>
+          <div>
+            <label>Operating System</label>
+            <select name="os">
+              <option>Debian 12</option>
+              <option>Ubuntu 24.04 LTS</option>
+              <option>Alpine 3.20</option>
+              <option>Belum yakin</option>
+            </select>
+          </div>
+        </div>
+        <label>Untuk apa VPS ini dipakai?</label>
+        <textarea name="tujuan" placeholder="Contoh: website toko online, bot Telegram, game server, testing development. Tidak perlu lengkap — membantu kami menyarankan spesifikasi yang tepat."></textarea>
+        <button type="submit" class="btn" style="width:100%">Kirim Pesanan via WhatsApp</button>
+        <p style="color:var(--muted);font-size:.82rem;margin-top:14px;text-align:center">
+          Pesanan akan dibuka di aplikasi WhatsApp Anda. Mohon lengkapi nama Anda agar mudah kami hubungi balik.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>Hosting Jaya</b> — VPS hosting untuk individu dan businesses kecil.</p>
+    <p style="margin-top:6px">Operasional fleksibel · Support via Telegram & WhatsApp</p>
+  </div>
+</footer>
+
+<script>
+function sendWA(e){
+  e.preventDefault();
+  var f = document.getElementById('orderForm');
+  var g = function(n){ var v=(f.elements[n]||{}).value; return v ? v.trim() : '-'; };
+  var lines = [
+    '*PESANAN VPS BARU - Hosting Jaya*',
+    '',
+    'Nama    : ' + g('nama'),
+    'Telegram: ' + g('telegram'),
+    'WhatsApp: ' + g('wa'),
+    'Email   : ' + g('email'),
+    'Paket   : ' + g('paket'),
+    'OS      : ' + g('os'),
+    '',
+    'Untuk dipakai: ' + g('tujuan')
+  ];
+  window.open('https://wa.me/6285706499655?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+  return false;
+}
+</script>
+</body>
+</html>
